@@ -1,0 +1,43 @@
+.page_menu {
+  display: flex;
+  padding: 20px 0;
+  .left_arrow {
+    a {
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 38px;
+      color: #000;
+    }
+  }
+  nav {
+    ul {
+      display: flex;
+      li {
+        padding: 0 15px;
+        a {
+          font-weight: 500;
+          font-size: 25px;
+          line-height: 38px;
+          color: #000;
+          transition: all 0.3s ease-in;
+          border-bottom: 2px solid transparent;
+          padding-bottom: 10px;
+          &.active {
+            color: #2697fe;
+            border-bottom: 2px solid #2697fe;
+          }
+          &.inactive {
+            color: #000;
+            border-bottom: 2px solid transparent;
+          }
+        }
+        &:hover {
+          a {
+            color: #2697fe;
+            border-bottom: 2px solid #2697fe;
+          }
+        }
+      }
+    }
+  }
+}

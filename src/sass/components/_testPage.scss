@@ -1,0 +1,65 @@
+.select-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .select-area {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      margin-bottom: 0;
+    }
+    hr {
+      width: 30px;
+      height: 0.5px;
+    }
+    select {
+      background: #f7f7f7;
+      border: 1px solid #c2c2c2;
+      box-sizing: border-box;
+      border-radius: 6px;
+      padding: 10px;
+    }
+  }
+  .schedule {
+    p {
+      a {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 33px;
+        color: #2697fe;
+        border: 1px solid #2697fe;
+        border-radius: 6px;
+        padding: 10px 20px;
+      }
+    }
+  }
+}
+.test-card-wrapper {
+  padding: 50px 0;
+}
+.test_single_card {
+  border: 1px solid #d2d2d2;
+  padding: 10px 5px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  h3 {
+    padding-bottom: 20px;
+  }
+  p {
+    padding-bottom: 20px;
+  }
+  .date {
+    display: flex;
+    p {
+      margin-right: 20px;
+      span {
+        color: #9c9c9c;
+        display: inline-block;
+        margin-right: 5px;
+      }
+    }
+  }
+}
