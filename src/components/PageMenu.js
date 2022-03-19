@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {BiLeftArrowAlt} from 'react-icons/bi';
 import { NavLink } from 'react-router-dom';
 
@@ -12,7 +12,7 @@ export default function PageMenu() {
         </div>
         <nav>
             <ul>
-                <li> <NavLink to="/test" activeClassName="active">Test</NavLink></li>
+                <li><NavLink to="/test" activeClassName="active">Test</NavLink></li>
                 <li><NavLink to="/lectures" activeClassName="active" >Lecture</NavLink></li>
                 <li><NavLink to="/study" activeClassName="active" >Study material</NavLink></li>
                 <li><NavLink to="/list" activeClassName="active" >List of student and teacher</NavLink></li>
