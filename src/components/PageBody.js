@@ -4,10 +4,8 @@ import TestPage from './TestPage';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link,
-  useRouteMatch,
-  useParams
+  Route
+  
 } from "react-router-dom";
 import LecturePage from './LecturePage';
 import StudyPage from './StudyPage';

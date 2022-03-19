@@ -1,21 +1,21 @@
 import React, {useState} from 'react';
 import {BiLeftArrowAlt} from 'react-icons/bi';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export default function PageMenu() {
-    //const [clicked, setClicked] = useState('');
-     
+
+  
   return (
     <div className='page_menu'>
         <div className='left_arrow'>
-             <Link to="/test"><BiLeftArrowAlt/></Link>
+             <NavLink to="/test"><BiLeftArrowAlt/></NavLink>
         </div>
         <nav>
             <ul>
-                <li> <Link to="/test" className='active'>Test</Link></li>
-                <li><Link to="/lectures" >Lecture</Link></li>
-                <li><Link to="/study" >Study material</Link></li>
-                <li><Link to="/list" >List of student and teacher</Link></li>
+                <li> <NavLink to="/test" activeClassName="active">Test</NavLink></li>
+                <li><NavLink to="/lectures" activeClassName="active" >Lecture</NavLink></li>
+                <li><NavLink to="/study" activeClassName="active" >Study material</NavLink></li>
+                <li><NavLink to="/list" activeClassName="active" >List of student and teacher</NavLink></li>
             </ul>
         </nav>
         
